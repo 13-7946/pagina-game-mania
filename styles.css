@@ -38,15 +38,23 @@ text-transform: uppercase;
 font-family: "Roboto";
 }
 
-.banner{ 
-    height: 700px;
-    background-image:url(img/banner.png) ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background:cover;
+.icone-menu{
+    height: 40px;
+}
+#barras{
+    display: none;
+}
+.banner{
+
+    background-color:rgb(26, 25, 25);  
+}
+
+.banner img{
+   width: 100%;
+   border: 3px;
+   border-radius: 5px;
 }
 .Categorias { 
-    height: 50px;
     background-color: rgb(26, 25, 25);
     border-bottom:2px solid wheat;
 }
@@ -64,15 +72,15 @@ padding: 50px;
 }
 .card {
     width: 31%;
-    display: inline-block;
+    display:inline-block;
     margin: 1% 1%;
     padding: 15px;
 }
 .product-image{
-    height: 300px;
+    height: 15vw;
     width: 100%;
     margin-bottom: 10px;
-    background-position: center;
+   align-items: center;
     background-size: cover;
 }
 
@@ -100,13 +108,13 @@ padding: 50px;
     background: url(img/notebook\ gamer.jpg);
 }
  .card p {
-     margin-bottom: 10px;
+     margin-bottom: 5px;
  }
   
 
 
  .btn {
-     display: block;
+     justify-content: center;
      width: 100%;
      text-align: center;
      text-transform: uppercase;
@@ -151,89 +159,102 @@ font-family: "Roboto";
     background-size: cover;  
 }
 
+.banner-dois{
+ background-color: rgb(26, 25, 25);
+ align-self: center;
+}
+.banner-dois img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
 
 footer{
   background-color: black;
-   height: 400px;
-   padding: 20px 0;
-
-
+   padding: 20px ;
 }
  
 .container-footer{
     width:100%;
-    margin: 30px;
+    margin: 10px;
 }
- .row-footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
- }
-
+ 
 .footer-col{
-    width: 25%;
+    width:85vw;
     padding: 5px;
-
 }
-.footer-col h4{ 
+
+.footer-midia h4{ 
     font-family: "Roboto";
     font-size: 22px;
     color: white;
     margin-bottom: 20px;
-    font-weight: 500;
-    position:relative;
-    text-transform:uppercase;
-
 }
 .footer-col ul{
     list-style: none;
 }
-
-
-.footer-col ul li{
-    margin: 10px ;
+.footer-midia h3{
+    color: white;
+    
 }
 
-.footer-col ul li a{
+.footer-midia ul li{
+    margin: 10px ;
+   
+}
+
+.footer-midia ul li a{
     font-family: "Roboto";
     font-size: 16px;
     text-transform: capitalize;
     color: white;
-    text-decoration: none;
+    text-decoration:none;
     font-weight: 300;
-    display: block;
     transition: all 0.3s ease;
 }
 
-.footer-col ul li a:hover{
-    color: white;
+.footer-midia ul li a:hover{
+    color:white;
     padding-left: 10px;
 }
 
 .logo-footer img{
-    align-items: center;
-    margin: 20px;
+   
+    width:20em;
+ 
+}
+
+.footer-col h4{
+    color: white;
+    padding: 20px;
 }
 
 
-.footer-col .midias-socias{
-    margin-top: 30px;
+.midias-socias{
+ margin-top: 40px;
 }
+
 .midias-sociais a img{
+margin: 10px;
 height: 40px;
 width: 50px;
 border-radius: 100%;
 }
 
 .midias-sociais h4{
-    margin:20px;
+    width: 200px;
+}
+.form-sub{
+    align-items: center;
 }
 
-.footer-col .form-sub input{
-    width: 80%;
+.footer-col .form-sub input {
+    width:55%;
     padding: 10px;
     font-size: 15px;
     outline: none;
+    border-radius: 10px;
     border: 1px solid white;
     color: white;
     background-color: white;
@@ -244,31 +265,54 @@ border-radius: 100%;
 
 .footer-col .form-sub button{
     color:white;
+    width: 45%;
     background-color: blue;
-    margin-top: 10px;
+    border-radius: 10px;
     padding: 10px;
     font-size: 17px;
     outline: none;
     border: none;
     cursor: pointer;
-    border-radius: 3px;
+   
     
    
 
 }
 
 
-@media (max-width:800px){
-    .container{
-        width: 50%;
-        margin-bottom: 30px;
+@media screen and (max-width:1200px){
+    .container-grid{
+        width: 85vw;
+        
 
     }
 }
+@media screen and (max-width:1000px) {
+    #barras{
+        display: inline-block;
+    }
+    
+    .cabecalho{
+        position: relative;
+    }
 
-@media (max-width:600px){
-    .container{
-        width: 50%;
-        margin-bottom: 30px;
+
+    .menu{
+        display: none;
+        position: absolute;
+        top: 80px ;
+        right:131px ;
+        height: 300px;
+        width: 30vw;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color:  rgb(26, 25, 25);
+        border-radius: 10px;
     }
 }
+
+
+
+
+
