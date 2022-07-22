@@ -1,24 +1,32 @@
 $(document).ready(function(){
     let slideAtual = 1
-let listaSlides = ["banner-a1", "banner-a2","banner-a3"]
+    let listaSlides = ["banner-a1", "banner-a2","banner-a3"]
 
+    setInterval (mudarSlide, 2000)
 
-setInterval(mudarSlide,2000)
+    function mudarSlide() {
 
+        // remover slide anterior
+        if (slideAtual > 0) {
 
-function mudarSlide(){
-    // remover o slide anterior
-$("#carrossel").removeclass(listaSlides[slideAtual-3])
-    // exibir o slide atual
+        $("#carrossel").removeClass(listaSlides[slideAtual-1])
 
+        }else{
 
-    // indicar qual o slide atual
+            $("#carrossel").removeClass(listaSlides[listaSlides.length-1])
+            
+        }
 
+        //exibir slide atual 
+        $("#carrossel").addClass(listaSlides[slideAtual])
 
+        //indicar qual slide atual
+        slideAtual++
 
-}
-
-
+        if (slideAtual > 2) {
+            slideAtual = 0
+        }
+    }
 
 
 })
@@ -40,8 +48,3 @@ if(getComputedStyle(menu).display == "none"){
 
    //mudar visualização//
 }
-
-
-
-
-

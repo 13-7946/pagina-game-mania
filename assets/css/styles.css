@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400 & display=swap');
 
 /* css reset */
 *{ 
@@ -62,13 +62,13 @@ font-family: "Roboto";
 
 
 .banner-a1{
-background-image: url(img/banner.png)
+background-image: url(./img/banner.png)
 }
 .banner-a2{
-background-image: url(img/capa\ de\ games.jpg);
+background-image: url(./img/capa\ de\ games.jpg);
 }
 .banner-a3{
-background-image: url(img/COD-Modern-Warfare-Banner-PC.jpg\ 3.jpg);
+background-image: url(./img/COD-Modern-Warfare-Banner-PC.jpg\ 3.jpg);
 }
 
 
@@ -104,27 +104,27 @@ padding: 50px;
 }
 
 #img1 {
-    background:url(img/ps5\ imagen.webp) 
+    background:url(./img/ps5\ imagen.webp) 
 
 }
 
 #img2 {
-    background: url(img/ps5\ imagen.webp);
+    background: url(./img/ps5\ imagen.webp);
 }
 
 #img3 {
-    background: url(img/ps5\ imagen.webp);
+    background: url(./img/ps5\ imagen.webp);
 }
 
 #img4 {
-    background: url(img/notebook\ gamer.jpg);
+    background: url(./img/notebook\ gamer.jpg);
 }
 
 #img5 {
-    background: url(img/notebook\ gamer.jpg);
+    background: url(./img/notebook\ gamer.jpg);
 }
 #img6 {
-    background: url(img/notebook\ gamer.jpg);
+    background: url(./img/notebook\ gamer.jpg);
 }
  .card p {
      margin-bottom: 5px;
@@ -161,19 +161,19 @@ font-family: "Roboto";
 }
 
 #img7{
-    background: url(img/jogos.webp);
+    background: url(./img/jogos.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #img8{
-    background: url(img/jogos.webp);
+    background: url(./img/jogos.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #img9{
-    background: url(img/jogos.webp);
+    background: url(./img/jogos.webp);
     background-repeat: no-repeat;
     background-size: cover;  
 }
@@ -330,8 +330,3 @@ border-radius: 100%;
         border-radius: 10px;
     }
 }
-
-
-
-
-
