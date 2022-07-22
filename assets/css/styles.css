@@ -45,15 +45,34 @@ font-family: "Roboto";
     display: none;
 }
 .banner{
-
+    height: 510px;
+    width: 100%;
+    border: 3px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color:rgb(26, 25, 25);  
 }
-
-.banner img{
-   width: 100%;
-   border: 3px;
-   border-radius: 5px;
+.posicionamento-banner{
+    height: 100%;
+    display:flex;
+    align-items: center;
 }
+
+
+.banner-a1{
+background-image: url(img/banner.png)
+}
+.banner-a2{
+background-image: url(img/capa\ de\ games.jpg);
+}
+.banner-a3{
+background-image: url(img/COD-Modern-Warfare-Banner-PC.jpg\ 3.jpg);
+}
+
+
+
 .Categorias { 
     background-color: rgb(26, 25, 25);
     border-bottom:2px solid wheat;
