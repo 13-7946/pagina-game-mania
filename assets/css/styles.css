@@ -363,10 +363,11 @@ background-size: cover;
     }
     
 }
-@media screen and (max-width:744) {
+@media screen and (max-width:744px) {
 
-.container-grid .container{
-    width:85vw;}
+.container-grid .container .card{
+    width:85vw;
+}
 
 }
 
