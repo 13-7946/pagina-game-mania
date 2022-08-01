@@ -45,7 +45,7 @@ font-family: "Roboto";
     display: none;
 }
 .banner{
-    height: 510px;
+    height: 710px;
     width: 100%;
     border: 3px;
     border-radius: 5px;
@@ -62,13 +62,20 @@ font-family: "Roboto";
 
 
 .banner-a1{
-background-image: url(./img/banner.png)
+background-image: url(./img/banner.png);
+background-repeat: no-repeat;
+background-size: cover; 
+ 
 }
 .banner-a2{
 background-image: url(./img/capa\ de\ games.jpg);
+background-repeat: no-repeat;
+background-size: cover; 
 }
 .banner-a3{
 background-image: url(./img/COD-Modern-Warfare-Banner-PC.jpg\ 3.jpg);
+background-repeat: no-repeat;
+background-size: cover; 
 }
 
 
@@ -152,7 +159,6 @@ padding: 50px;
  .btn {
      justify-content: center;
      width: 100%;
-     text-align: center;
      text-transform: uppercase;
      text-decoration:none;
      background-color: red;
@@ -214,15 +220,21 @@ footer{
 }
  
 .container-footer{
-    width:100%;
     margin: 10px;
 }
  
 
 .footer-col{
     padding: 5px;
-}
+    width: 50vw;
 
+}
+.row-footer{
+   display: flex;
+}
+.footer-midia{
+    height: 18vw;
+}
 .footer-midia h4{ 
     font-family: "Roboto";
     font-size: 22px;
@@ -259,20 +271,16 @@ footer{
 
 .logo-footer img{
    
-    width:20em;
+    width:20vw;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .footer-col h4{
     color: white;
-    padding: 20px;
+   font-size: 22px;
 }
 
-
-.midias-socias{
- margin-top: 40px;
-}
 
 .midias-sociais a img{
 margin: 10px;
@@ -284,14 +292,15 @@ background-size: cover;
 }
 
 .midias-sociais h4{
-    width: 200px;
+    font-size: 22px;
+    margin: 10px;
 }
 .form-sub{
     align-items: center;
 }
 
 .footer-col .form-sub input {
-    width:55%;
+    width:250px;
     padding: 10px;
     font-size: 15px;
     outline: none;
@@ -302,11 +311,12 @@ background-size: cover;
 }
 .footer-col .form-sub input::placeholder{
     color:black;
+    font-size: 17px;
 }
 
 .footer-col .form-sub button{
     color:white;
-    width: 45%;
+    width: 160px;
     background-color: blue;
     border-radius: 10px;
     padding: 10px;
@@ -344,30 +354,19 @@ background-size: cover;
         top: 80px ;
         right:131px ;
         height: 300px;
-        width: 40vw;
+        width: 60vw;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         background-color:  rgb(26, 25, 25);
         border-radius: 10px;
     }
+    
 }
 @media screen and (max-width:744) {
 
-.container-grid .container .container-footer{
+.container-grid .container{
     width:85vw;}
+
 }
 
-
-@media screen and (max-width:550)
-{
-    .container-grid .container .container-footer{
-        width: 85vw;
-    }
-}
-@media screen and (max-width:330)
- {
- .container-grid .container .container-footer{
-    width: 85vw;
- }   
-}
