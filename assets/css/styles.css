@@ -45,7 +45,7 @@ font-family: "Roboto";
     display: none;
 }
 .banner{
-    height: 710px;
+    height: 610px;
     width: 100%;
     border: 3px;
     border-radius: 5px;
@@ -93,11 +93,11 @@ font-family: "Roboto";
 }
 .products-container{
 background-color: rgb(26, 25, 25);
-min-height: 60vh;
-padding: 50px; 
+min-height:27vw;
+padding: 10px;
 }
 .card {
-    width: 400px;
+    width: 25vw;
     display:inline-block;
     margin: 1% 1%;
     padding: 15px;
@@ -216,7 +216,7 @@ font-family: "Roboto";
 
 footer{
   background-color: black;
-   padding: 20px ;
+   padding: 10px ;
 }
  
 .container-footer{
@@ -226,15 +226,14 @@ footer{
 
 .footer-col{
     padding: 5px;
-    width: 50vw;
+   
 
 }
 .row-footer{
    display: flex;
 }
-.footer-midia{
-    height: 18vw;
-}
+
+
 .footer-midia h4{ 
     font-family: "Roboto";
     font-size: 22px;
@@ -244,14 +243,20 @@ footer{
 .footer-col ul{
     list-style: none;
 }
-.footer-midia h3{
-    color: white;
-    
+.footer-midia{
+  padding:20px;
+    margin: 20px;
 }
+.footer-midia ul h3{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+  }
 
 .footer-midia ul li{
     margin: 10px ;
-   
+    font-size: 16px;
+   color: white;
 }
 
 .footer-midia ul li a{
@@ -365,9 +370,20 @@ background-size: cover;
 }
 @media screen and (max-width:744px) {
 
-.container-grid .container .card{
+.container-grid .container {
     width:85vw;
 }
+    .menu a{
+ color: blue;
+    }
+ .footer-midia{
+width: 10%;
+}
+.form-sub{
+    width: 5%;
+}
+
+
 
 }
 
