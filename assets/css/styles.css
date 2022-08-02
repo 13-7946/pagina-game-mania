@@ -383,7 +383,11 @@ width: 10%;
     width: 5%;
 }
 
-
-
+.banner{
+    width: 90%;
+}
+.container-footer{
+    width: 90%;
+}
 }
 
