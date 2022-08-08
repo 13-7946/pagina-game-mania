@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Game mania</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" >
-    <link rel="stylesheet" href="./assets/css/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous" defer></script>
-  <script src="./assets/js/jquery-3.6.0.min.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/js/jquery-3.6.0.min.js" defer></script>
     <script src="./assets/js/script.js" defer> </script>
 
 
@@ -39,8 +39,8 @@
         <h2>Categorias</h2>
       </section>
   
-      <section class="products-container ">
-        <div class="container justify-content-between align-items-center">
+      <section class="products-container">
+        <div class="container products-container ">
     
                 <div class="container card">
                   <div class="product-image" id="img1"></div>
@@ -49,41 +49,47 @@
                   <p>R$ <span class="bold">4000,00</span></p>
                   <a href="#" class="btn"> Comprar</a>
                 </div>
+
                 <div class="container card">
                   <div class="product-image" id="img2"></div>
                   <h3>Playstation </h3>
-              <p>frete grátis</p>
-              <p>R$ <span class="bold">4000,00</span></p>
-              <a href="#" class="btn"> Comprar</a>
-            </div>
-            <div class="container card">
-              <div class="product-image" id="img3"></div>
-              <h3>Playstation </h3>
-              <p>frete grátis</p>
-              <p>R$ <span class="bold">4000,00</span></p>
-              <a href="#" class="btn"> Comprar</a>
-            </div>
-            <div class="card">
-              <div class="product-image" id="img4"></div>
-              <h3>notebook</h3>
-              <p>frete grátis</p>
-              <p>R$ <span class="bold">4000,00</span></p>
-              <a href="#" class="btn"> Comprar</a>
-            </div>
-            <div class="card">
-              <div class="product-image" id="img5"></div>
-              <h3>notebook</h3>
-              <p>frete grátis</p>
-              <p>R$ <span class="bold">4000,00</span></p>
-              <a href="#" class="btn"> Comprar</a>
-            </div>
-            <div class="card">
-              <div class="product-image" id="img6"></div>
-              <h3>notebook </h3>
-              <p>frete grátis</p>
-              <p>R$ <span class="bold">4000,00</span></p>
-              <a href="#" class="btn"> Comprar</a>
-            </div>
+                  <p>frete grátis</p>
+                  <p>R$ <span class="bold">4000,00</span></p>
+                  <a href="#" class="btn"> Comprar</a>
+                </div>
+
+                <div class="container card">
+                  <div class="product-image" id="img3"></div>
+                  <h3>Playstation </h3>
+                  <p>frete grátis</p>
+                  <p>R$ <span class="bold">4000,00</span></p>
+                  <a href="#" class="btn"> Comprar</a>
+                </div>
+
+
+                <div class="card">
+                  <div class="product-image" id="img4"></div>
+                  <h3>notebook</h3>
+                  <p>frete grátis</p>
+                  <p>R$ <span class="bold">4000,00</span></p>
+                  <a href="#" class="btn"> Comprar</a>
+                </div>
+
+                <div class="card">
+                  <div class="product-image" id="img5"></div>
+                  <h3>notebook</h3>
+                  <p>frete grátis</p>
+                  <p>R$ <span class="bold">4000,00</span></p>
+                  <a href="#" class="btn"> Comprar</a>
+                </div>
+
+                <div class="card">
+                  <div class="product-image" id="img6"></div>
+                  <h3>notebook </h3>
+                  <p>frete grátis</p>
+                  <p>R$ <span class="bold">4000,00</span></p>
+                  <a href="#" class="btn"> Comprar</a>
+                </div>
           </div>
         </section> 
           
@@ -98,7 +104,7 @@
 
 
  <section class="products-container ">
-<div class=" container produtos">
+  <div class=" container produtos products-container">
 
   <div class="card">
   <div class="product-image" id="img7"></div>
@@ -137,9 +143,9 @@
 
 <footer class="footer">
    
-  <div class="container-footer"> 
+  <div class="ftt"> 
 
-    <div class=" container row-footer d-flex  justify-content-between align-items-center">
+    <div class="container ft row-footer d-flex  justify-content-between align-items-center">
       <!-- inicio footer-->
       <div class="container footer-midia ">
         <ul> 
@@ -161,24 +167,24 @@
         <div class="form-sub">
           <form class="container form-sub d-flex align-items-center justify-content-between">
             <input id=" campo-email" type="email" placeholder="Digite o seu e-mail" required>
-            <button onclick="cadastrarnewletter()"> Cadastrar-se</button>
+            <button class="ft-btn" onclick="cadastrarnewletter()"> Cadastrar-se</button>
           </form>
         </div>
           <!--fim form-sub-->
           
-<div class=" container midias-sociais d-flex justify-content-between ">
-  <h4>Siga-nos em</h4>
-  <a href=""> <img src="./assets/css/./img/logo whatzaap.png" alt=" logo whatsAAp">
-    <a href=""> <img src="./assets/css/img/logo facebook.jpg" alt="logo facebook">
-      <a href=""> <img src="./assets/css/img/logo instagran.jpg" alt="logo instagram">
-      </div>
+        <div class=" container midias-sociais d-flex justify-content-between ">
+          <h4>Siga-nos em</h4>
+          <a href=""> <img src="./assets/css/./img/logo whatzaap.png" alt=" logo whatsAAp">
+            <a href=""> <img src="./assets/css/img/logo facebook.jpg" alt="logo facebook">
+              <a href=""> <img src="./assets/css/img/logo instagran.jpg" alt="logo instagram">
+              </div>
+              
+        </div>
+      <!--fim footer-->
       
     </div>
-    <!--fim footer-->
     
-  </div>
-  
-</div> 
+  </div> 
 </footer>
 
 </body>
