@@ -45,19 +45,17 @@ font-family: "Roboto";
     display: none;
 }
 .banner{
-    height: 610px;
+    align-items: center;
+   height: 600px;
     width: 100%;
-    border: 3px;
     border-radius: 5px;
+}
+.posicionamento-banner{
+    background-color: rgb(26, 25, 25);
+    display:flex;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
-}
-.posicionamento-banner{
-    height: 100%;
-    background-color: rgb(26, 25, 25);
-    display:flex;
-    align-items: center;
 }
 
 
@@ -96,7 +94,7 @@ font-family: "Roboto";
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: rgb(26, 25, 25);
-    /* padding: 10px; */
+     padding: 10px;
 
 
 }
@@ -373,7 +371,7 @@ background-size: cover;
         border-radius: 10px;
     }
 
-    /* footer alteração leo */
+    /* footer alteração */
     .ft{
         display: flex;
         flex-direction: column;
@@ -397,11 +395,11 @@ background-size: cover;
         width:85vw;
     }
         .menu a{
-    color: blue;
+    color:white;
         }
    
     .form-sub{
-        width: 5%;
+        width: 3%;
     }
 
     .banner{
@@ -410,6 +408,16 @@ background-size: cover;
     .container-footer{
         width: 90%;
     }
+    .ft-btn{
+     width:5%;
+
+    }
+    .logo-footer img{
+        display: none;
+    }
+    .form-sub{
+        width: 30%;
+    }
 }
 
 
@@ -417,9 +425,9 @@ background-size: cover;
 
     .footer-col .form-sub button{
         padding: 0px;
-        /* width: 3vw; */
+         width: 3vw; 
     }
-    /* .container{
-        width: ;
-    } */
+     .container{
+        width:90% ;
+    } 
 }
