@@ -63,17 +63,20 @@ font-family: "Roboto";
 background-image: url(./img/banner.png);
 background-repeat: no-repeat;
 background-size: cover; 
+background-position: center;
  
 }
 .banner-a2{
 background-image: url(./img/capa\ de\ games.jpg);
 background-repeat: no-repeat;
-background-size: cover; 
+background-size: cover;
+background-position: center; 
 }
 .banner-a3{
 background-image: url(./img/COD-Modern-Warfare-Banner-PC.jpg\ 3.jpg);
 background-repeat: no-repeat;
 background-size: cover; 
+background-position: center;
 }
 
 
@@ -404,6 +407,7 @@ background-size: cover;
 
     .banner{
         width: 90%;
+        height: 400px;
     }
     .container-footer{
         width: 90%;
